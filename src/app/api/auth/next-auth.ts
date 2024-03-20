@@ -53,6 +53,7 @@ const nextAuth = NextAuth({
               clientId: AUTH0_CLIENT_ID,
               clientSecret: AUTH0_CLIENT_SECRET,
               issuer: AUTH0_ISSUER,
+              name: 'Probe Chat',
             });
           }
           case 'azure-ad': {
